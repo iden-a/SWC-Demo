@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 100vw;
+}
+
+.first-last-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+}
+
+#firstName, #lastName {
+  width: 90%;
+}
+
+.college-major {
+  margin-bottom: 2%;
+}
+
+#funFact,#collegeMajor, #collegeUniversity {
+  width: 100%;
+  border-radius: 5px;
+}
