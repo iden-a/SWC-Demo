@@ -1,0 +1,13 @@
+.title {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.data-container {
+    display: flex;
+    flex: wrap;
+    gap: 5%;
+    text-align: center;
+    justify-content: center;
+}
