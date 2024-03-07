@@ -8,6 +8,7 @@ export default function Form() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
+    collegeUniversity: "",
     collegeMajor: "",
     funFact: "",
   });
@@ -73,9 +74,9 @@ export default function Form() {
               <p>College/University</p>
               <input
                 type="text"
-                id="collegeMajor"
-                name="collegeMajor"
-                value={formData.college}
+                id="collegeUniversity"
+                name="collegeUniversity"
+                value={formData.collegeUniversity}
                 onChange={handleChange}
               />
             </div>
@@ -84,9 +85,9 @@ export default function Form() {
               <p>Major</p>
               <input
                 type="text"
-                id="collegeUniversity"
-                name="collegeUniversity"
-                value={formData.major}
+                id="collegeMajor"
+                name="collegeMajor"
+                value={formData.collegeMajor}
                 onChange={handleChange}
               />
             </div>
